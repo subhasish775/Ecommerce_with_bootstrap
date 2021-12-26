@@ -1,0 +1,29 @@
+@use '../custom' as *;
+@use '../components/mixin' as *;
+
+.menu{
+   @include gradient;
+
+li{
+    padding:0 0.7rem;
+}
+a{
+    color:$white !important;
+    text-transform:capitalize;
+    font-weight:600;
+}
+.navbar-brand img{
+    width:50px;
+}
+.navbar-brand{
+    margin-right:25px;
+}
+#navbarSupportedContent {
+    // background:mediumseagreen;
+    margin-left:250px;
+}
+#navbarSupportedContent .rounded-pill{
+// padding:10px 10px;
+margin-right:230px;
+}
+}
